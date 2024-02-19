@@ -1,4 +1,4 @@
-github_url = "https://github.com/joerick/pr-labels-action/"
+github_url = "https://github.com/nogara/pr-labels-action/"
 
 [version]
 current = "1.0.8"
@@ -21,7 +21,7 @@ search = '"version": "{current_version}"'
 
 [[file]]
 src = "README.md"
-search = 'joerick/pr-labels-action@v{current_version}'
+search = 'nogara/pr-labels-action@v{current_version}'
 
 [[before_commit]]
 name = "Run pre-commit"

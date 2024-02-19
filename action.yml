@@ -1,6 +1,6 @@
 name: 'PR labels'
 description: |
-  Extract labels from the PR that this build belongs to and make them 
+  Extract labels from the PR that this build belongs to and make them
   available to other actions.
 author: joerick
 outputs:
@@ -13,8 +13,8 @@ outputs:
       The labels on this PR. A dictionary containing `true` where a label
       exists
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 branding:
-  icon: 'tag'  
+  icon: 'tag'
   color: 'green'
